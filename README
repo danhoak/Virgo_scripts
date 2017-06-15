@@ -1,8 +1,8 @@
-Scripts  from Virgo commissioning:
+Scripts from Virgo commissioning:
 
-DAC_noise estimates the DAC noise contribution to the Virgo sensitivity
+'DAC_noise' has code to estimate the DAC noise contribution to the Virgo sensitivity
 
-ER_tests are a few scripts to characterize the detector during engineering runs - things like Q measurements of solid-body modes, violin modes, lockloss investigations etc.
+'ER_tests' contains a few scripts to characterize the detector during engineering runs - things like Q measurements of solid-body modes, violin modes, lockloss investigations etc.
 
-sense_plot has a few plotting routines and data for visualizing the sensitivity
+'sense_plot' has a plotting routines and data for visualizing the AdV sensitivity over time
 
