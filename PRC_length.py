@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 
+# Script to estimate the difference in demod phase of PDH locking signals for PRMI locked on
+# the carrier and sideband.
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 from numpy import *
 from scipy import constants

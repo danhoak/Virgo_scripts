@@ -1,5 +1,7 @@
 #! /usr/bin/python
 
+# Script to measure Schnupp asymmetry by demodulating an injected line as the demod phase is rotated
+
 from numpy import *
 
 import sys, os, time
@@ -21,19 +23,13 @@ from uncertainties import ufloat
 from uncertainties import unumpy
 
 
-
-## Parametric function: 'v' is the vector of parameters, 'x' the independent variable
-def decay(t,A,m):
-    return A + t*m
-
-
-
-
 c = constants.c
 lamb = 1064.0e-9
 
 
-
+## Parametric function: 'v' is the vector of parameters, 'x' the independent variable
+def decay(t,A,m):
+    return A + t*m
 
 
 #### Code to demodulate data
